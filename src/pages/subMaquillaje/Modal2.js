@@ -1,12 +1,12 @@
 import NoAlert from '../../components/header/NoAlert';
 import '../../../src/components/cardsmk/cards.css';
 
-import card1 from '../../components/assets/img/maquillaje/banner/rubor/rubor1.png';
-import card2 from '../../components/assets/img/maquillaje/banner/rubor/rubor2.png';
-import card3 from '../../components/assets/img/maquillaje/banner/rubor/rubor3.png';
+import card1 from '../../components/assets/img/maquillaje/banner/ojos/Delineador1.png';
+import card2 from '../../components/assets/img/maquillaje/banner/ojos/Delineador2.png';
+import card3 from '../../components/assets/img/maquillaje/banner/ojos/Delineador3.png';
 
 
-function Modal1() {
+function Modal2() {
     return (
         <div>
             <NoAlert/>         
@@ -25,7 +25,7 @@ function Modal1() {
 
                         <div className="text-card" id="product1">
                             <a href="#modal">
-                                <h4>1</h4>
+                                <h4>Delineador1</h4>
                             </a>
                             <p>$ 50.000</p>
                             <div className="select-icon">
@@ -72,7 +72,7 @@ function Modal1() {
                             <a href="#modal2"><img src={card2} alt="" /></a>
                         </div>
                         <div className="text-card" id="product1">
-                            <a href="#modal2"><h4>2</h4></a>
+                            <a href="#modal2"><h4>Delineador2</h4></a>
                             <p>$ 30.000</p>
                             <div className="select-icon">
                                 <select name="cantidad" id="cantidad">
@@ -117,7 +117,7 @@ function Modal1() {
                         </div>
                         <div className="text-card venta-font" id="product1">
                             <a href="#modal3">
-                                <h4>3</h4>
+                                <h4>Delineador3</h4>
                             </a>
                             <p>$ 100.000</p>
                             <div className="select-icon">
@@ -152,4 +152,4 @@ function Modal1() {
     );
 }
 
-export default Modal1;
+export default Modal2;

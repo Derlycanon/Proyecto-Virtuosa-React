@@ -1,12 +1,12 @@
 import NoAlert from '../../components/header/NoAlert';
 import '../../../src/components/cardsmk/cards.css';
 
-import card1 from '../../components/assets/img/maquillaje/banner/rubor/rubor1.png';
-import card2 from '../../components/assets/img/maquillaje/banner/rubor/rubor2.png';
-import card3 from '../../components/assets/img/maquillaje/banner/rubor/rubor3.png';
+import card1 from '../../components/assets/img/maquillaje/banner/piel/Bases1.png';
+import card2 from '../../components/assets/img/maquillaje/banner/piel/Iluminadores1.png';
+import card3 from '../../components/assets/img/maquillaje/banner/piel/Bases4.png';
 
 
-function Modal1() {
+function Modal3() {
     return (
         <div>
             <NoAlert/>         
@@ -152,4 +152,4 @@ function Modal1() {
     );
 }
 
-export default Modal1;
+export default Modal3;

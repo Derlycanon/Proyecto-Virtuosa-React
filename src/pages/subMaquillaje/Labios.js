@@ -1,8 +1,9 @@
 import Header from '../../components/header/header';
 import Home from '../../components/home/home';
 import Labiosc from '../../components/labios/labiosC';
-//import Cards from '../components/cardsmk/card1';
+import Modal4 from './Modal4';
 import Footer from '../../components/footer/footer';
+
 
 
 function Labios() {
@@ -11,6 +12,7 @@ function Labios() {
             <Header />
             <Home />
             <Labiosc />
+            <Modal4 />
             <Footer />
         </div>
     )

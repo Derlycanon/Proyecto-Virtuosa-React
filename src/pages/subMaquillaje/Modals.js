@@ -2,8 +2,8 @@ import NoAlert from '../../components/header/NoAlert';
 import '../../../src/components/cardsmk/cards.css';
 
 import card1 from '../../components/assets/img/maquillaje/banner/ojos/Delineador1.png';
-import card2 from '../../components/assets/img/maquillaje/banner/ojos/Delineador2.png';
-import card3 from '../../components/assets/img/maquillaje/banner/ojos/Delineador3.png';
+import card2 from '../../components/assets/img/maquillaje/banner/piel/Bases3.png';
+import card3 from '../../components/assets/img/maquillaje/banner/ojos/Rimel1.png';
 
 
 function Modals() {
@@ -25,7 +25,7 @@ function Modals() {
 
                         <div className="text-card" id="product1">
                             <a href="#modal">
-                                <h4>Delineador1</h4>
+                                <h4>1</h4>
                             </a>
                             <p>$ 50.000</p>
                             <div className="select-icon">
@@ -72,7 +72,7 @@ function Modals() {
                             <a href="#modal2"><img src={card2} alt="" /></a>
                         </div>
                         <div className="text-card" id="product1">
-                            <a href="#modal2"><h4>Delineador2</h4></a>
+                            <a href="#modal2"><h4>2</h4></a>
                             <p>$ 30.000</p>
                             <div className="select-icon">
                                 <select name="cantidad" id="cantidad">
@@ -117,7 +117,7 @@ function Modals() {
                         </div>
                         <div className="text-card venta-font" id="product1">
                             <a href="#modal3">
-                                <h4>Delineador3</h4>
+                                <h4>3</h4>
                             </a>
                             <p>$ 100.000</p>
                             <div className="select-icon">

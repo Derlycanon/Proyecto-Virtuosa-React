@@ -1,8 +1,9 @@
 import Header from '../../components/header/header';
 import Home from '../../components/home/home';
 import Ojosc from '../../components/ojos/ojosC';
-//import Cards from '../components/cardsmk/card1';
+import Modal2 from './Modal2';
 import Footer from '../../components/footer/footer';
+
 
 
 function Ojos() {
@@ -11,6 +12,7 @@ function Ojos() {
             <Header />
             <Home />
             <Ojosc />
+            <Modal2 />
             <Footer />
         </div>
     )
